@@ -1,0 +1,21 @@
+uuid: cdb4635b-aaa8-4350-8ddc-52dfb2cd2d0a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_size
+    - paragraphs.paragraphs_type.ingredient
+  module:
+    - options
+id: paragraph.ingredient.field_size
+field_name: field_size
+entity_type: paragraph
+bundle: ingredient
+label: Size
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

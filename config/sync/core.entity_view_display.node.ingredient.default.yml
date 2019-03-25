@@ -1,0 +1,45 @@
+uuid: 83b01971-8734-4cac-8972-e68a1be5798f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ingredient.body
+    - field.field.node.ingredient.field_image
+    - field.field.node.ingredient.field_where_to_buy
+    - node.type.ingredient
+  module:
+    - image
+    - text
+    - user
+id: node.ingredient.default
+targetEntityType: node
+bundle: ingredient
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_where_to_buy:
+    weight: 2
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden:
+  langcode: true
+  links: true

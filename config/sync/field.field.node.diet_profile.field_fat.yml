@@ -1,0 +1,23 @@
+uuid: 9e4ac2e5-73f9-481b-80fb-b62f01c2a289
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fat
+    - node.type.diet_profile
+id: node.diet_profile.field_fat
+field_name: field_fat
+entity_type: node
+bundle: diet_profile
+label: Fat
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

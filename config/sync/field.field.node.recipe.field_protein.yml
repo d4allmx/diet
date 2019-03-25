@@ -1,0 +1,23 @@
+uuid: 6fced822-5c82-4ac5-a2f2-d691e74515fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_protein
+    - node.type.recipe
+id: node.recipe.field_protein
+field_name: field_protein
+entity_type: node
+bundle: recipe
+label: Protein
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: g
+field_type: integer

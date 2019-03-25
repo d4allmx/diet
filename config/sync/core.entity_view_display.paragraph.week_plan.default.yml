@@ -1,0 +1,24 @@
+uuid: 67be7abc-be8f-421c-a5fe-47d85325706a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.week_plan.field_day_plan
+    - paragraphs.paragraphs_type.week_plan
+  module:
+    - entity_reference_revisions
+id: paragraph.week_plan.default
+targetEntityType: paragraph
+bundle: week_plan
+mode: default
+content:
+  field_day_plan:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden: {  }

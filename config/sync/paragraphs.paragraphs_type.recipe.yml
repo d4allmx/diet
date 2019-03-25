@@ -1,0 +1,9 @@
+uuid: 069a5163-b8f5-4d5e-9af3-2bbabb57c0f5
+langcode: en
+status: true
+dependencies: {  }
+id: recipe
+label: Recipe
+icon_uuid: null
+description: 'Register one recipe.'
+behavior_plugins: {  }

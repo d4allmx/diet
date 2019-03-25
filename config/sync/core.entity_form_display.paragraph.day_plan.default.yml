@@ -1,0 +1,81 @@
+uuid: 1278f246-f227-4171-b72f-d9f644e3ad6a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.day_plan.field_meal_1
+    - field.field.paragraph.day_plan.field_meal_2
+    - field.field.paragraph.day_plan.field_meal_3
+    - field.field.paragraph.day_plan.field_meal_4
+    - field.field.paragraph.day_plan.field_meal_5
+    - paragraphs.paragraphs_type.day_plan
+  module:
+    - paragraphs
+id: paragraph.day_plan.default
+targetEntityType: paragraph
+bundle: day_plan
+mode: default
+content:
+  field_meal_1:
+    type: entity_reference_paragraphs
+    weight: 0
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed_expand_nested
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: recipe
+    third_party_settings: {  }
+    region: content
+  field_meal_2:
+    type: entity_reference_paragraphs
+    weight: 1
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed_expand_nested
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: recipe
+    third_party_settings: {  }
+    region: content
+  field_meal_3:
+    type: entity_reference_paragraphs
+    weight: 2
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed_expand_nested
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: recipe
+    third_party_settings: {  }
+    region: content
+  field_meal_4:
+    type: entity_reference_paragraphs
+    weight: 3
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed_expand_nested
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: recipe
+    third_party_settings: {  }
+    region: content
+  field_meal_5:
+    type: entity_reference_paragraphs
+    weight: 4
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed_expand_nested
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: recipe
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  status: true

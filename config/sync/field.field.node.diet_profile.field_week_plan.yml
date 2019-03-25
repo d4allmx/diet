@@ -1,0 +1,40 @@
+uuid: 2e693a1d-c76a-43b7-97bc-e6a57b33e745
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_week_plan
+    - node.type.diet_profile
+    - paragraphs.paragraphs_type.week_plan
+  module:
+    - entity_reference_revisions
+id: node.diet_profile.field_week_plan
+field_name: field_week_plan
+entity_type: node
+bundle: diet_profile
+label: 'Week Plan'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      week_plan: week_plan
+    target_bundles_drag_drop:
+      week_plan:
+        enabled: true
+        weight: 5
+      day_plan:
+        weight: 6
+        enabled: false
+      ingredient:
+        weight: 7
+        enabled: false
+      recipe:
+        weight: 8
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,22 @@
+uuid: e150da9b-a5c6-4c95-bba6-b5fcb5c75c3f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.recipe
+  module:
+    - text
+id: node.recipe.body
+field_name: body
+entity_type: node
+bundle: recipe
+label: Procedure
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

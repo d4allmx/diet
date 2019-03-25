@@ -1,0 +1,55 @@
+uuid: 78a8be1e-00f4-457d-89fd-1e41854560fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ingredient.field_ingredient
+    - field.field.paragraph.ingredient.field_quantity
+    - field.field.paragraph.ingredient.field_quantity_fraction
+    - field.field.paragraph.ingredient.field_size
+    - field.field.paragraph.ingredient.field_unit
+    - paragraphs.paragraphs_type.ingredient
+  module:
+    - options
+id: paragraph.ingredient.default
+targetEntityType: paragraph
+bundle: ingredient
+mode: default
+content:
+  field_ingredient:
+    weight: 0
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_quantity:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_quantity_fraction:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_size:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_unit:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+hidden: {  }

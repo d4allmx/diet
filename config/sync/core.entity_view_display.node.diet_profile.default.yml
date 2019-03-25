@@ -1,0 +1,71 @@
+uuid: 53724e98-6ab8-4952-a02c-652900c6f8a4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.diet_profile.field_calories
+    - field.field.node.diet_profile.field_carbs
+    - field.field.node.diet_profile.field_fat
+    - field.field.node.diet_profile.field_protein
+    - field.field.node.diet_profile.field_week_plan
+    - node.type.diet_profile
+  module:
+    - entity_reference_revisions
+    - user
+id: node.diet_profile.default
+targetEntityType: node
+bundle: diet_profile
+mode: default
+content:
+  field_calories:
+    weight: 103
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_carbs:
+    weight: 104
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_fat:
+    weight: 105
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_protein:
+    weight: 106
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_week_plan:
+    type: entity_reference_revisions_entity_view
+    weight: 102
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

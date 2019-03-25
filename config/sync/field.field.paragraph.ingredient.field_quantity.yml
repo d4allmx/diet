@@ -1,0 +1,23 @@
+uuid: 44cfc380-6ee9-4809-b3f1-80851877ed52
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_quantity
+    - paragraphs.paragraphs_type.ingredient
+  module:
+    - options
+id: paragraph.ingredient.field_quantity
+field_name: field_quantity
+entity_type: paragraph
+bundle: ingredient
+label: Quantity
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

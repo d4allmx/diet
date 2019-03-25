@@ -1,0 +1,23 @@
+uuid: 257cebf7-321c-4624-bc79-7c1d17fe5e56
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_protein
+    - node.type.diet_profile
+id: node.diet_profile.field_protein
+field_name: field_protein
+entity_type: node
+bundle: diet_profile
+label: Protein
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

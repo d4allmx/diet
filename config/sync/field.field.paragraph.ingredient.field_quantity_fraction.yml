@@ -1,0 +1,23 @@
+uuid: c3e445de-74ef-4d2b-97cf-6bc5dde51978
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_quantity_fraction
+    - paragraphs.paragraphs_type.ingredient
+  module:
+    - options
+id: paragraph.ingredient.field_quantity_fraction
+field_name: field_quantity_fraction
+entity_type: paragraph
+bundle: ingredient
+label: Fraction
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: '0'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

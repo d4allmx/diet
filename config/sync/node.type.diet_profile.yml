@@ -1,0 +1,17 @@
+uuid: 7e59c2d4-ec2f-4776-9710-7a5085decec1
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Diet Profile'
+type: diet_profile
+description: 'Register a diet Profile, name, current weight, macros goals, diet plan, ingredients allergies, etc.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

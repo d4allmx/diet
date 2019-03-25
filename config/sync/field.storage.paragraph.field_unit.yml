@@ -1,0 +1,51 @@
+uuid: 095b229d-fa9d-4ef9-959a-ef27fbcff89e
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_unit
+field_name: field_unit
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: pinch
+      label: 'Pinch or Dash'
+    -
+      value: tsp
+      label: Teaspoon
+    -
+      value: tbsp
+      label: Tablespoon
+    -
+      value: cup
+      label: Cup
+    -
+      value: pint
+      label: Pint
+    -
+      value: quart
+      label: Quart
+    -
+      value: lt
+      label: Litter
+    -
+      value: gal
+      label: Gallon
+    -
+      value: lb
+      label: Pound
+    -
+      value: unit
+      label: Unit
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

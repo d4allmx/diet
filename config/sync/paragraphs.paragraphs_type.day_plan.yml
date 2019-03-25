@@ -1,0 +1,9 @@
+uuid: fcb4f393-a7f5-48ae-bf9a-a0ca7f53b7e9
+langcode: en
+status: true
+dependencies: {  }
+id: day_plan
+label: 'Day Plan'
+icon_uuid: null
+description: 'Register multiple recipes for a a Day Diet plan.'
+behavior_plugins: {  }

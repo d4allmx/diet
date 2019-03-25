@@ -1,0 +1,11 @@
+uuid: b562f598-3a83-47a0-b7f1-c63dc57e16f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.diet_profile
+id: node.diet_profile
+target_entity_type_id: node
+target_bundle: diet_profile
+default_langcode: site_default
+language_alterable: false

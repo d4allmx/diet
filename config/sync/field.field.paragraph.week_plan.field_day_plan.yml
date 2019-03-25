@@ -1,0 +1,40 @@
+uuid: 1898f01c-3004-4588-8e0c-abd0e802d1e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_day_plan
+    - paragraphs.paragraphs_type.day_plan
+    - paragraphs.paragraphs_type.week_plan
+  module:
+    - entity_reference_revisions
+id: paragraph.week_plan.field_day_plan
+field_name: field_day_plan
+entity_type: paragraph
+bundle: week_plan
+label: 'Day Plan'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      day_plan: day_plan
+    target_bundles_drag_drop:
+      week_plan:
+        weight: 5
+        enabled: false
+      day_plan:
+        enabled: true
+        weight: 6
+      ingredient:
+        weight: 7
+        enabled: false
+      recipe:
+        weight: 8
+        enabled: false
+field_type: entity_reference_revisions

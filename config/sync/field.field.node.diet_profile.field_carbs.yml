@@ -1,0 +1,23 @@
+uuid: cb2086a9-a67c-4354-8571-5ea17471d432
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_carbs
+    - node.type.diet_profile
+id: node.diet_profile.field_carbs
+field_name: field_carbs
+entity_type: node
+bundle: diet_profile
+label: Carbs
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

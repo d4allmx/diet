@@ -1,0 +1,23 @@
+uuid: 38cf1b51-1dd8-4583-97b8-b4b04340d40c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sodium
+    - node.type.recipe
+id: node.recipe.field_sodium
+field_name: field_sodium
+entity_type: node
+bundle: recipe
+label: Sodium
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: mg
+field_type: integer

@@ -1,0 +1,23 @@
+uuid: a88400fc-fa67-4b8a-8621-0a7fc2247938
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_calories
+    - node.type.diet_profile
+id: node.diet_profile.field_calories
+field_name: field_calories
+entity_type: node
+bundle: diet_profile
+label: Calories
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

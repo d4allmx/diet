@@ -1,0 +1,37 @@
+uuid: d8dd209b-a808-4db9-9a58-eb550ea4def7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_meal_1
+    - paragraphs.paragraphs_type.day_plan
+    - paragraphs.paragraphs_type.recipe
+  module:
+    - entity_reference_revisions
+id: paragraph.day_plan.field_meal_1
+field_name: field_meal_1
+entity_type: paragraph
+bundle: day_plan
+label: Breakfast
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      recipe: recipe
+    target_bundles_drag_drop:
+      recipe:
+        enabled: true
+        weight: 4
+      day_plan:
+        weight: 5
+        enabled: false
+      ingredient:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,11 @@
+uuid: 6811de2e-8e17-41e8-86b5-9ff24c543ecf
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.market
+id: taxonomy_vocabulary_market
+action: display_page
+allow_override: 1
+redirect: ''
+redirect_code: 301

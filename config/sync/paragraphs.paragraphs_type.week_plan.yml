@@ -1,0 +1,9 @@
+uuid: 4d31f247-f751-478e-9776-c731af36c46c
+langcode: en
+status: true
+dependencies: {  }
+id: week_plan
+label: 'Week Plan'
+icon_uuid: null
+description: 'Register multiple days of diet plan.'
+behavior_plugins: {  }

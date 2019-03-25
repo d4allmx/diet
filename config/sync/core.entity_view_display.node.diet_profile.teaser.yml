@@ -1,0 +1,23 @@
+uuid: af35b469-308c-40dc-b9f8-2ed4774b16b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.diet_profile.field_week_plan
+    - node.type.diet_profile
+  module:
+    - user
+id: node.diet_profile.teaser
+targetEntityType: node
+bundle: diet_profile
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_week_plan: true
+  langcode: true

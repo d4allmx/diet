@@ -1,0 +1,197 @@
+uuid: 2f9ed169-02b9-4eaf-b0f4-2f18f58bb4d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.recipe.body
+    - field.field.node.recipe.field_calories
+    - field.field.node.recipe.field_carbs
+    - field.field.node.recipe.field_cholesterol
+    - field.field.node.recipe.field_fat
+    - field.field.node.recipe.field_fiber
+    - field.field.node.recipe.field_ingredient
+    - field.field.node.recipe.field_protein
+    - field.field.node.recipe.field_saturated_fat
+    - field.field.node.recipe.field_sodium
+    - field.field.node.recipe.field_sugar
+    - node.type.recipe
+  module:
+    - field_group
+    - paragraphs
+    - path
+    - text
+third_party_settings:
+  field_group:
+    group_macros:
+      children:
+        - field_calories
+        - field_carbs
+        - field_protein
+        - field_fat
+        - field_saturated_fat
+        - field_cholesterol
+        - field_sodium
+        - field_fiber
+        - field_sugar
+      parent_name: ''
+      weight: 4
+      format_type: details
+      format_settings:
+        id: ''
+        classes: ''
+        open: true
+        required_fields: false
+      label: Macros
+      region: content
+id: node.recipe.default
+targetEntityType: node
+bundle: recipe
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 3
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  created:
+    type: datetime_timestamp
+    weight: 7
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_calories:
+    weight: 3
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_carbs:
+    weight: 4
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_cholesterol:
+    weight: 8
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_fat:
+    weight: 6
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_fiber:
+    weight: 10
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_ingredient:
+    type: entity_reference_paragraphs
+    weight: 2
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_protein:
+    weight: 5
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_saturated_fat:
+    weight: 7
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_sodium:
+    weight: 9
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_sugar:
+    weight: 11
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  langcode:
+    type: language_select
+    weight: 1
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 8
+    region: content
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 11
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 9
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden: {  }

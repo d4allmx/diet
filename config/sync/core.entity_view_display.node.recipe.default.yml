@@ -1,0 +1,130 @@
+uuid: 62bc5161-322f-4e0b-b2ed-4e3636873cd5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.recipe.body
+    - field.field.node.recipe.field_calories
+    - field.field.node.recipe.field_carbs
+    - field.field.node.recipe.field_cholesterol
+    - field.field.node.recipe.field_fat
+    - field.field.node.recipe.field_fiber
+    - field.field.node.recipe.field_ingredient
+    - field.field.node.recipe.field_protein
+    - field.field.node.recipe.field_saturated_fat
+    - field.field.node.recipe.field_sodium
+    - field.field.node.recipe.field_sugar
+    - node.type.recipe
+  module:
+    - entity_reference_revisions
+    - text
+    - user
+id: node.recipe.default
+targetEntityType: node
+bundle: recipe
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_calories:
+    weight: 102
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_carbs:
+    weight: 107
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_cholesterol:
+    weight: 105
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_fat:
+    weight: 103
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_fiber:
+    weight: 108
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_ingredient:
+    type: entity_reference_revisions_entity_view
+    weight: 111
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_protein:
+    weight: 110
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_saturated_fat:
+    weight: 104
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_sodium:
+    weight: 106
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_sugar:
+    weight: 109
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

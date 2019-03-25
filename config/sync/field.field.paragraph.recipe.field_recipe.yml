@@ -1,0 +1,29 @@
+uuid: ff92c3ac-52b7-4ce1-8eca-8d030219e53c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_recipe
+    - node.type.recipe
+    - paragraphs.paragraphs_type.recipe
+id: paragraph.recipe.field_recipe
+field_name: field_recipe
+entity_type: paragraph
+bundle: recipe
+label: Recipe
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      recipe: recipe
+    sort:
+      field: title
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

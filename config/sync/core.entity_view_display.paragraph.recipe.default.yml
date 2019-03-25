@@ -1,0 +1,21 @@
+uuid: 783c6c73-f7da-4dae-be0a-e6b0e9f4f0ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.recipe.field_recipe
+    - paragraphs.paragraphs_type.recipe
+id: paragraph.recipe.default
+targetEntityType: paragraph
+bundle: recipe
+mode: default
+content:
+  field_recipe:
+    weight: 0
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden: {  }

@@ -1,0 +1,64 @@
+uuid: 3d39ea30-db8f-4d6f-b828-3384c7e8ea63
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.day_plan.field_meal_1
+    - field.field.paragraph.day_plan.field_meal_2
+    - field.field.paragraph.day_plan.field_meal_3
+    - field.field.paragraph.day_plan.field_meal_4
+    - field.field.paragraph.day_plan.field_meal_5
+    - paragraphs.paragraphs_type.day_plan
+  module:
+    - entity_reference_revisions
+id: paragraph.day_plan.default
+targetEntityType: paragraph
+bundle: day_plan
+mode: default
+content:
+  field_meal_1:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_meal_2:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_meal_3:
+    type: entity_reference_revisions_entity_view
+    weight: 4
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_meal_4:
+    type: entity_reference_revisions_entity_view
+    weight: 3
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_meal_5:
+    type: entity_reference_revisions_entity_view
+    weight: 5
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden: {  }

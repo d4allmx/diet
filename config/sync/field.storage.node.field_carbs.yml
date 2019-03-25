@@ -1,0 +1,20 @@
+uuid: db0e3260-96f9-4280-9830-03c30a544fd3
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_carbs
+field_name: field_carbs
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

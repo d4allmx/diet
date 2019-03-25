@@ -1,0 +1,11 @@
+uuid: ca57c3de-3f3d-40eb-b44d-66a23fdfb2f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.diet_profile
+id: node_type_diet_profile
+action: page_not_found
+allow_override: 1
+redirect: ''
+redirect_code: 301

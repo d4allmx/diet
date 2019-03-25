@@ -1,0 +1,20 @@
+uuid: cdeb2816-34d7-4c71-aaf5-fd03bd418c5e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_fat
+field_name: field_fat
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

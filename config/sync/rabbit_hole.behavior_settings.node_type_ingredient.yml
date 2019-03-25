@@ -1,0 +1,11 @@
+uuid: d904cdbd-6640-4fdf-bccc-b891fb9bf91d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.ingredient
+id: node_type_ingredient
+action: display_page
+allow_override: 1
+redirect: ''
+redirect_code: 301

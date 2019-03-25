@@ -1,0 +1,23 @@
+uuid: 55c50b2a-8dd3-42b2-883c-22c816344436
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_unit
+    - paragraphs.paragraphs_type.ingredient
+  module:
+    - options
+id: paragraph.ingredient.field_unit
+field_name: field_unit
+entity_type: paragraph
+bundle: ingredient
+label: Unit
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: cup
+default_value_callback: ''
+settings: {  }
+field_type: list_string

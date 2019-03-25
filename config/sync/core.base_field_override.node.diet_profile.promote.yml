@@ -1,0 +1,22 @@
+uuid: baa8b082-4f25-45ca-94de-e1b5f25dd438
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.diet_profile
+id: node.diet_profile.promote
+field_name: promote
+entity_type: node
+bundle: diet_profile
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

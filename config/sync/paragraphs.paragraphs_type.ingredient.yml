@@ -1,0 +1,9 @@
+uuid: 26522697-5cfe-444f-8c4c-dd7980b27210
+langcode: en
+status: true
+dependencies: {  }
+id: ingredient
+label: Ingredient
+icon_uuid: null
+description: 'Register Ingredient usage for a recipe.'
+behavior_plugins: {  }

@@ -1,0 +1,21 @@
+uuid: f0dee561-3fe0-4ae6-8adb-c5262f379ffb
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - node
+    - paragraphs
+id: node.field_week_plan
+field_name: field_week_plan
+entity_type: node
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,16 @@
+uuid: 297a0b14-aa6b-4826-a4c0-1dbbe9d36288
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.ingredient
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: node.ingredient
+target_entity_type_id: node
+target_bundle: ingredient
+default_langcode: site_default
+language_alterable: false

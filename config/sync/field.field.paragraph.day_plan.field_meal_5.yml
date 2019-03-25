@@ -1,0 +1,37 @@
+uuid: 5aeaf8ed-40a2-406e-b205-3ba34b7cb874
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_meal_5
+    - paragraphs.paragraphs_type.day_plan
+    - paragraphs.paragraphs_type.recipe
+  module:
+    - entity_reference_revisions
+id: paragraph.day_plan.field_meal_5
+field_name: field_meal_5
+entity_type: paragraph
+bundle: day_plan
+label: Dinner
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      recipe: recipe
+    target_bundles_drag_drop:
+      recipe:
+        enabled: true
+        weight: 4
+      day_plan:
+        weight: 5
+        enabled: false
+      ingredient:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions

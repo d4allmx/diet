@@ -1,0 +1,18 @@
+uuid: ad58c51b-619a-4aa7-bb44-9d103fd33961
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.diet_profile
+id: node.diet_profile.title
+field_name: title
+entity_type: node
+bundle: diet_profile
+label: Name
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

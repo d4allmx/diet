@@ -1,0 +1,29 @@
+uuid: 9d108c8e-9d3b-4190-bf36-f0c96c134ab6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.week_plan.field_day_plan
+    - paragraphs.paragraphs_type.week_plan
+  module:
+    - paragraphs
+id: paragraph.week_plan.default
+targetEntityType: paragraph
+bundle: week_plan
+mode: default
+content:
+  field_day_plan:
+    type: entity_reference_paragraphs
+    weight: 0
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed_expand_nested
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: _none
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  status: true

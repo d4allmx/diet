@@ -8,7 +8,9 @@
 /web/libraries/
 /tmp
 /pvt
+/private
 /logs
+/dumps
 .DS_Store
 
 # Ignore sensitive information

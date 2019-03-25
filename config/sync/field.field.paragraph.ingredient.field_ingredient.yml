@@ -1,0 +1,29 @@
+uuid: 762c4a3b-3209-401c-8f0d-8e0f098c7116
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ingredient
+    - node.type.ingredient
+    - paragraphs.paragraphs_type.ingredient
+id: paragraph.ingredient.field_ingredient
+field_name: field_ingredient
+entity_type: paragraph
+bundle: ingredient
+label: Ingredient
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      ingredient: ingredient
+    sort:
+      field: title
+      direction: ASC
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference
