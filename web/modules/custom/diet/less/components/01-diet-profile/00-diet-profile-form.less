@@ -1,0 +1,205 @@
+.node-form{
+  .layout-node-form .section{
+    padding-right: 15px;
+    padding-left: 15px;
+
+    > .details-wrapper{
+      margin-right: -15px;
+      margin-left: -15px;
+      padding-right: 0;
+      padding-left: 0;
+
+      .clearfix();
+
+      > .js-form-wrapper{
+        > .form-item{
+          padding: 0 15px;
+          margin: 0;
+
+          input.form-number,
+          input.form-autocomplete{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .js-form-wrapper .paragraph-type-title{
+    min-width: 50px;
+    flex-basis: auto;
+  }
+
+  .input.form-autocomplete, input.form-text, input.form-tel, input.form-email, input.form-url, input.form-search, input.form-number, input.form-color, input.form-file, input.form-date, input.form-time, textarea.form-textarea{
+    width: 100%;
+  }
+}
+
+.node-diet-profile-form{
+  .layout-region.layout-region-node-main{
+    width: 100%;
+    padding-right: 0;
+    float: none;
+  }
+
+  .layout-region.layout-region-node-secondary{
+    width: 100%;
+    padding-right: 0;
+    float: none;
+  }
+
+  #diet-plan-section{
+    #edit-field-week-plan-wrapper,
+    #field-week-plan-add-more-wrapper{
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+  }
+
+  #macros-section{
+    .details-wrapper{
+      > .js-form-wrapper{
+        float: left;
+        width: 25%;
+      }
+    }
+  }
+}
+
+#edit-field-week-plan-wrapper{
+  > div > .form-item > .field-multiple-table > tbody > tr > td  > .ajax-new-content > div > .form-wrapper > .paragraphs-subform{
+    margin-right: -15px;
+    margin-left: -15px;
+
+    .clearfix();
+
+    > .js-form-wrapper{
+      float: left;
+      width: 14.285714285714286%;
+
+      > div{
+        padding-right: 15px;
+        padding-left: 15px;
+
+        > div > .form-wrapper > .paragraph-type-top{
+          .paragraphs-dropbutton-wrapper{
+            display: none;
+          }
+        }
+
+        > div > .form-wrapper > .paragraphs-subform{
+          > .form-wrapper .tabledrag-toggle-weight-wrapper{
+            display: none;
+          }
+
+          .paragraphs-subform > div > div > label{
+            display: none;
+          }
+
+          /**
+           * Remove button.
+           */
+          .paragraph-type-title + .paragraphs-dropbutton-wrapper{
+            width: 20px;
+            height: 20px;
+            position: relative;
+            background: black;
+            border-radius: 4px 4px 4px 4px;
+            overflow: hidden;
+
+            &:after{
+              content: "\f00d";
+              font-family: "FontAwesome";
+              text-rendering: auto;
+              -webkit-font-smoothing: antialiased;
+              -moz-osx-font-smoothing: grayscale;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              .transform(translate(-50%, -50%));
+              z-index: 0;
+              color: white;
+              font-size: 14px;
+              margin-top: -1px;
+            }
+
+            .button{
+              position: absolute;
+              top: 0;
+              left: 0;
+              border-radius: 0;
+              background: transparent;
+              border: none;
+              color: transparent;
+              padding: 0;
+              overflow: hidden;
+              width: 20px;
+              height: 20px;
+              opacity: 0;
+              z-index: 1;
+            }
+
+            &:hover{
+              background: red;
+            }
+          }
+
+          /**
+           * Add button.
+           */
+          .clearfix > .paragraphs-dropbutton-wrapper{
+            width: 20px;
+            height: 20px;
+            position: relative;
+            background: black;
+            border-radius: 4px 4px 4px 4px;
+            overflow: hidden;
+
+            &:after{
+              content: "\f067";
+              font-family: "FontAwesome";
+              text-rendering: auto;
+              -webkit-font-smoothing: antialiased;
+              -moz-osx-font-smoothing: grayscale;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              .transform(translate(-50%, -50%));
+              z-index: 0;
+              color: white;
+              font-size: 14px;
+            }
+
+            .button{
+              position: absolute;
+              top: 0;
+              left: 0;
+              border-radius: 0;
+              background: transparent;
+              border: none;
+              color: transparent;
+              padding: 0;
+              overflow: hidden;
+              width: 20px;
+              height: 20px;
+              opacity: 0;
+              z-index: 1;
+              margin: 0;
+            }
+
+            &:hover{
+              background: red;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/*.field--name-field-sunday-plan,
+.field--name-field-sunday-plan,
+.field--name-field-sunday-plan,
+.field--name-field-sunday-plan,
+.field--name-field-sunday-plan,
+.field--name-field-sunday-plan,
+.field--name-field-sunday-plan,*/

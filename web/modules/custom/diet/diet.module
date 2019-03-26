@@ -5,12 +5,14 @@
  */
 function diet_page_attachments(array &$attachments) {
   $route = \Drupal::routeMatch();
-  kint($route);
-  exit;
-
   $route_name = $route->getRouteName();
+  $routes = ['node.add'];
 
-  if ($route_name == 'node.add_page') {
-    $attachments['#attached']['library'][] = 'diet/foobar';
+  if (in_array($route_name, $routes)) {
+    $node_bundle = $route->getParameter('node_type')->get('type');
+
+    if ($node_bundle == 'diet_profile') {
+      $attachments['#attached']['library'][] = 'diet/profile';
+    }
   }
 }

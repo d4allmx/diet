@@ -1,0 +1,16 @@
+profile:
+  css:
+    theme:
+      css/diet.profile.css: {}
+  js:
+    js/diet.profile.js: {}
+
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - diet/font-awesome
+
+font-awesome:
+  css:
+    theme:
+      fonts/font-awesome-4.7.0/css/font-awesome.min.css: {minified: true}

@@ -1,0 +1,193 @@
+.node-form .layout-node-form .section {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.node-form .layout-node-form .section > .details-wrapper {
+  margin-right: -15px;
+  margin-left: -15px;
+  padding-right: 0;
+  padding-left: 0;
+}
+.node-form .layout-node-form .section > .details-wrapper:after {
+  clear: both;
+  display: table;
+  height: 0;
+  content: "";
+}
+.node-form .layout-node-form .section > .details-wrapper > .js-form-wrapper > .form-item {
+  padding: 0 15px;
+  margin: 0;
+}
+.node-form .layout-node-form .section > .details-wrapper > .js-form-wrapper > .form-item input.form-number,
+.node-form .layout-node-form .section > .details-wrapper > .js-form-wrapper > .form-item input.form-autocomplete {
+  width: 100%;
+}
+.node-form .js-form-wrapper .paragraph-type-title {
+  min-width: 50px;
+  flex-basis: auto;
+}
+.node-form .input.form-autocomplete,
+.node-form input.form-text,
+.node-form input.form-tel,
+.node-form input.form-email,
+.node-form input.form-url,
+.node-form input.form-search,
+.node-form input.form-number,
+.node-form input.form-color,
+.node-form input.form-file,
+.node-form input.form-date,
+.node-form input.form-time,
+.node-form textarea.form-textarea {
+  width: 100%;
+}
+.node-diet-profile-form .layout-region.layout-region-node-main {
+  width: 100%;
+  padding-right: 0;
+  float: none;
+}
+.node-diet-profile-form .layout-region.layout-region-node-secondary {
+  width: 100%;
+  padding-right: 0;
+  float: none;
+}
+.node-diet-profile-form #diet-plan-section #edit-field-week-plan-wrapper,
+.node-diet-profile-form #diet-plan-section #field-week-plan-add-more-wrapper {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.node-diet-profile-form #macros-section .details-wrapper > .js-form-wrapper {
+  float: left;
+  width: 25%;
+}
+#edit-field-week-plan-wrapper > div > .form-item > .field-multiple-table > tbody > tr > td > .ajax-new-content > div > .form-wrapper > .paragraphs-subform {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+#edit-field-week-plan-wrapper > div > .form-item > .field-multiple-table > tbody > tr > td > .ajax-new-content > div > .form-wrapper > .paragraphs-subform:after {
+  clear: both;
+  display: table;
+  height: 0;
+  content: "";
+}
+#edit-field-week-plan-wrapper > div > .form-item > .field-multiple-table > tbody > tr > td > .ajax-new-content > div > .form-wrapper > .paragraphs-subform > .js-form-wrapper {
+  float: left;
+  width: 14.285714285714286%;
+}
+#edit-field-week-plan-wrapper > div > .form-item > .field-multiple-table > tbody > tr > td > .ajax-new-content > div > .form-wrapper > .paragraphs-subform > .js-form-wrapper > div {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+#edit-field-week-plan-wrapper > div > .form-item > .field-multiple-table > tbody > tr > td > .ajax-new-content > div > .form-wrapper > .paragraphs-subform > .js-form-wrapper > div > div > .form-wrapper > .paragraph-type-top .paragraphs-dropbutton-wrapper {
+  display: none;
+}
+#edit-field-week-plan-wrapper > div > .form-item > .field-multiple-table > tbody > tr > td > .ajax-new-content > div > .form-wrapper > .paragraphs-subform > .js-form-wrapper > div > div > .form-wrapper > .paragraphs-subform {
+  /**
+           * Remove button.
+           */
+  /**
+           * Add button.
+           */
+}
+#edit-field-week-plan-wrapper > div > .form-item > .field-multiple-table > tbody > tr > td > .ajax-new-content > div > .form-wrapper > .paragraphs-subform > .js-form-wrapper > div > div > .form-wrapper > .paragraphs-subform > .form-wrapper .tabledrag-toggle-weight-wrapper {
+  display: none;
+}
+#edit-field-week-plan-wrapper > div > .form-item > .field-multiple-table > tbody > tr > td > .ajax-new-content > div > .form-wrapper > .paragraphs-subform > .js-form-wrapper > div > div > .form-wrapper > .paragraphs-subform .paragraphs-subform > div > div > label {
+  display: none;
+}
+#edit-field-week-plan-wrapper > div > .form-item > .field-multiple-table > tbody > tr > td > .ajax-new-content > div > .form-wrapper > .paragraphs-subform > .js-form-wrapper > div > div > .form-wrapper > .paragraphs-subform .paragraph-type-title + .paragraphs-dropbutton-wrapper {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  background: black;
+  border-radius: 4px 4px 4px 4px;
+  overflow: hidden;
+}
+#edit-field-week-plan-wrapper > div > .form-item > .field-multiple-table > tbody > tr > td > .ajax-new-content > div > .form-wrapper > .paragraphs-subform > .js-form-wrapper > div > div > .form-wrapper > .paragraphs-subform .paragraph-type-title + .paragraphs-dropbutton-wrapper:after {
+  content: "\f00d";
+  font-family: "FontAwesome";
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  color: white;
+  font-size: 14px;
+  margin-top: -1px;
+}
+#edit-field-week-plan-wrapper > div > .form-item > .field-multiple-table > tbody > tr > td > .ajax-new-content > div > .form-wrapper > .paragraphs-subform > .js-form-wrapper > div > div > .form-wrapper > .paragraphs-subform .paragraph-type-title + .paragraphs-dropbutton-wrapper .button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0;
+  background: transparent;
+  border: none;
+  color: transparent;
+  padding: 0;
+  overflow: hidden;
+  width: 20px;
+  height: 20px;
+  opacity: 0;
+  z-index: 1;
+}
+#edit-field-week-plan-wrapper > div > .form-item > .field-multiple-table > tbody > tr > td > .ajax-new-content > div > .form-wrapper > .paragraphs-subform > .js-form-wrapper > div > div > .form-wrapper > .paragraphs-subform .paragraph-type-title + .paragraphs-dropbutton-wrapper:hover {
+  background: red;
+}
+#edit-field-week-plan-wrapper > div > .form-item > .field-multiple-table > tbody > tr > td > .ajax-new-content > div > .form-wrapper > .paragraphs-subform > .js-form-wrapper > div > div > .form-wrapper > .paragraphs-subform .clearfix > .paragraphs-dropbutton-wrapper {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  background: black;
+  border-radius: 4px 4px 4px 4px;
+  overflow: hidden;
+}
+#edit-field-week-plan-wrapper > div > .form-item > .field-multiple-table > tbody > tr > td > .ajax-new-content > div > .form-wrapper > .paragraphs-subform > .js-form-wrapper > div > div > .form-wrapper > .paragraphs-subform .clearfix > .paragraphs-dropbutton-wrapper:after {
+  content: "\f067";
+  font-family: "FontAwesome";
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  color: white;
+  font-size: 14px;
+}
+#edit-field-week-plan-wrapper > div > .form-item > .field-multiple-table > tbody > tr > td > .ajax-new-content > div > .form-wrapper > .paragraphs-subform > .js-form-wrapper > div > div > .form-wrapper > .paragraphs-subform .clearfix > .paragraphs-dropbutton-wrapper .button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0;
+  background: transparent;
+  border: none;
+  color: transparent;
+  padding: 0;
+  overflow: hidden;
+  width: 20px;
+  height: 20px;
+  opacity: 0;
+  z-index: 1;
+  margin: 0;
+}
+#edit-field-week-plan-wrapper > div > .form-item > .field-multiple-table > tbody > tr > td > .ajax-new-content > div > .form-wrapper > .paragraphs-subform > .js-form-wrapper > div > div > .form-wrapper > .paragraphs-subform .clearfix > .paragraphs-dropbutton-wrapper:hover {
+  background: red;
+}
+/*.field--name-field-sunday-plan,
+.field--name-field-sunday-plan,
+.field--name-field-sunday-plan,
+.field--name-field-sunday-plan,
+.field--name-field-sunday-plan,
+.field--name-field-sunday-plan,
+.field--name-field-sunday-plan,*/
