@@ -2,7 +2,7 @@
 # Docs at https://github.com/drush-ops/drush/blob/master/examples/example.site.yml
 
 prod:
-  host: diet.d4all.mx
+  host: d4all.mx
   user: cristian100
   root: /var/www/drupal/d8/diet/prod/web
   uri: http://diet.d4all.mx

@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * Implements hook_page_attachments().
+ */
+function diet_page_attachments(array &$attachments) {
+  $route = \Drupal::routeMatch();
+  kint($route);
+  exit;
+
+  $route_name = $route->getRouteName();
+
+  if ($route_name == 'node.add_page') {
+    $attachments['#attached']['library'][] = 'diet/foobar';
+  }
+}

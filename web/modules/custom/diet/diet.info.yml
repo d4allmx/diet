@@ -1,0 +1,6 @@
+name: Diet
+description: Provides custom UI mods to improve diet planning.
+package: D4ALL
+
+type: module
+core: '8.x'
